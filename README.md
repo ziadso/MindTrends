@@ -10,7 +10,7 @@ MindTrends is an interactive data visualization platform designed for mental hea
 ## How to Use
 
 1. **Clone Repository**
-   - Use the command `git clone https://github.com/yourusername/mindtrends.git` to clone the repository.
+   - Use the command `git clone https://github.com/ziadso/MindTrends.git` to clone the repository.
 2. **Navigate to Project Directory**
    - Change directory to the project using: `cd MindTrends`.
 3. **Install Dependencies**
