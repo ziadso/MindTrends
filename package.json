@@ -1,0 +1,17 @@
+{
+  "name": "mindtrends",
+  "version": "1.0.0",
+  "description": "MindTrends is an interactive data visualization platform designed for mental health researchers to explore various mental health conditions across Germany from 2020 to 2023.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

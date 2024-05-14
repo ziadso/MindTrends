@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js" defer></script>
+    <script src="dropdown.js" defer></script>
+</head>
+<body class="bg-gray-200">
+    <div class="container mx-auto px-4 py-0">
+        <div class="header flex justify-between items-center" style="background-color: #4391C6;">
+            <div class="left-content flex items-center">
+                <img src="images/Mlogo.png" alt="MindTrends Logo" class="h-48">
+                <h1 class="text-4xl font-bold text-white mb-4 ml-4">MindTrends</h1>
+            </div>
+            <div class="right-content flex space-x-4">
+                <div class="dropdown relative">
+                    <button class="dropdown-toggle px-4 py-2 text-gray-800 font-semibold border border-gray-300 rounded hover:bg-gray-100 focus:outline-none ">
+                        About MindTrends
+                    </button>
+                    <div class="dropdown-menu absolute hidden w-64 bg-white text-gray-700 pt-1 rounded shadow-lg mt-1">
+                        <p class="px-4 py-2 text-s">
+                            Welcome to MindTrends, an interactive platform designed for Mental Health Researchers exploring conditions across Germany.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="dropdown relative">
+                    <button class="dropdown-toggle px-4 py-2 text-gray-800 font-semibold border border-gray-300 rounded hover:bg-gray-100 focus:outline-none ">
+                        What You Can Do
+                    </button>
+                    <div class="dropdown-menu absolute hidden w-64 bg-white text-gray-700 pt-1 rounded shadow-lg mt-1">
+                        <ul class="text-s px-4 py-2 my-4">
+                            <li>Switch between 2020 and 2023 to view data specific to each period.</li>
+                            <li>Use checkboxes to selectively view or hide data for specific diseases.</li>
+                            <li>Hover over any bar in the visualization for a detailed comparison of annual changes in prevalence.</li>
+                            <li>Watch as bar colors intensify with increasing prevalence.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Year slider for time-series analysis -->
+        <div class="year-selector mb-4 pt-4">
+            <label for="year">Year: <span id="year-value">2020</span></label>
+            <input type="range" id="year" min="2020" max="2023" value="2020" step="1">
+        </div>
+
+        <!-- Checkbox filters for condition comparison -->
+        <div class="filter-conditions mb-4">
+            <label><input type="checkbox" value="Depression" checked> Depression</label>
+            <label><input type="checkbox" value="Anxiety" checked> Anxiety</label>
+            <label><input type="checkbox" value="Schizophrenia" checked> Schizophrenia</label>
+            <label><input type="checkbox" value="Bipolar Disorder" checked> Bipolar Disorder</label>
+            <label><input type="checkbox" value="PTSD" checked> PTSD</label>
+        </div>
+
+        <!-- Bar chart container -->
+        <div id="chart"></div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
