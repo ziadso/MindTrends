@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 const updatedData = data[selectedYear].filter(d => visibleConditions.includes(d.condition));
 
                 x.domain(updatedData.map(d => d.condition));
-                y.domain([0, 0.4]);  // Keeping the domain constant
+                y.domain([0, 0.4]);  
 
                 svg.selectAll(".bar").remove();
                 svg.selectAll(".x.axis").remove();
@@ -81,10 +81,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }
 
-            // Initial chart display
             updateChart('2020');
 
-            // Event listeners for year slider and checkboxes
             document.getElementById('year').addEventListener("input", function() { updateChart(this.value); });
             document.querySelectorAll(".filter-conditions input").forEach(input => {
                 input.addEventListener("change", () => updateChart());

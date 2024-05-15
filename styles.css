@@ -1,24 +1,23 @@
 .dropdown-menu {
-    width: auto; /* Auto width based on content */
-    min-width: 16rem; /* Minimum width */
+    width: auto; 
+    min-width: 16rem; 
 }
 
 .dropdown-toggle {
-    background-color: #fff; /* White background */
-    color: #4391C6; /* Color from your header for consistency */
-    border-color: #4391C6; /* Border color to match */
+    background-color: #fff;
+    color: #4391C6; 
+    border-color: #4391C6;
 }
 
 .dropdown-toggle:hover, .dropdown-toggle:focus {
-    background-color: #f3f4f6; /* Light gray for hover and focus */
+    background-color: #f3f4f6; 
     
 }
 
-/* Ensuring the dropdown text matches the design */
 .dropdown-menu p, .dropdown-menu ul {
-    padding: 0.5rem 1rem; /* Padding for text and list */
+    padding: 0.5rem 1rem;
 }
 
 .dropdown-menu ul li {
-    padding: 0.25rem 0; /* Padding for list items */
+    padding: 0.25rem 0; 
 }
