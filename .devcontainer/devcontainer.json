@@ -10,6 +10,10 @@
     "extensions": [
         "dbaeumer.vscode-eslint"
     ],
+<<<<<<< HEAD
+=======
+    "postCreateCommand": "npm install",
+>>>>>>> a49e14adfb997b9e187a6a91d78da8bcd0226a02
     "forwardPorts": [3000],
     "shutdownAction": "stopContainer"
 }
