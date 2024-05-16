@@ -4,27 +4,31 @@
         {"condition": "Anxiety", "prevalence": 0.25},
         {"condition": "Schizophrenia", "prevalence": 0.10},
         {"condition": "Bipolar Disorder", "prevalence": 0.15},
-        {"condition": "PTSD", "prevalence": 0.20}
+        {"condition": "PTSD", "prevalence": 0.20},
+        {"condition": "Alcohol Use Disorder", "prevalence": 0.28}
     ],
     "2021": [
         {"condition": "Depression", "prevalence": 0.32},
         {"condition": "Anxiety", "prevalence": 0.26},
         {"condition": "Schizophrenia", "prevalence": 0.11},
         {"condition": "Bipolar Disorder", "prevalence": 0.14},
-        {"condition": "PTSD", "prevalence": 0.18}
+        {"condition": "PTSD", "prevalence": 0.18},
+        {"condition": "Alcohol Use Disorder", "prevalence": 0.29}
     ],
     "2022": [
         {"condition": "Depression", "prevalence": 0.33},
         {"condition": "Anxiety", "prevalence": 0.27},
         {"condition": "Schizophrenia", "prevalence": 0.12},
         {"condition": "Bipolar Disorder", "prevalence": 0.16},
-        {"condition": "PTSD", "prevalence": 0.21}
+        {"condition": "PTSD", "prevalence": 0.21},
+        {"condition": "Alcohol Use Disorder", "prevalence": 0.30}
     ],
     "2023": [
         {"condition": "Depression", "prevalence": 0.34},
         {"condition": "Anxiety", "prevalence": 0.28},
         {"condition": "Schizophrenia", "prevalence": 0.13},
         {"condition": "Bipolar Disorder", "prevalence": 0.17},
-        {"condition": "PTSD", "prevalence": 0.22}
+        {"condition": "PTSD", "prevalence": 0.22},
+        {"condition": "Alcohol Use Disorder", "prevalence": 0.31}
     ]
 }
