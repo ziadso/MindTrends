@@ -1,0 +1,13 @@
+{
+    "name": "MindTrends",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "settings": { 
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "forwardPorts": [3000],
+    "postCreateCommand": "npm install",
+    "remoteUser": "nodeuser"
+  }
+  
